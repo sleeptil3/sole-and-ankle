@@ -36,10 +36,14 @@ const ShoeCard = ({ slug, name, imageSrc, price, salePrice, releaseDate, numOfCo
 const Link = styled.a`
 	text-decoration: none;
 	color: inherit;
+	margin-right: auto;
 `
 
 const Wrapper = styled.article`
 	gap: 14px;
+	min-width: 200px;
+	max-width: 300px;
+	flex: 1 0 250px;
 `
 
 const ImageWrapper = styled.div`
